@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1200px;
+}
+
+body {
+  font-size: 15px;
+  background: #f6f4f4;
+  color: #212529;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-blue {
+  background: #00a0df;
+}
+
+.bg-red {
+  background: #ff5a60;
+}
+
+a {
+  color: #00a0df;
+  text-decoration: none;
+  background-color: initial;
+}
+
+a:hover {
+  color: #006993;
+  cursor: pointer;
+}
+
+.el-dialog__header {
+  display: none !important;
+}
